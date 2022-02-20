@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Coordenadas de poligono y detección Google Maps</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body onload="initialize()">
+  <h3>Esoy dentro del poligono?</h3>
+  <div id="map-canvas"></div>
+  <div class="title"><span class="tit">Puntos del polígono</span></div>
+  <div class="lngLat"><span class="one">Lat</span><span class="two">Lng</span></div>
+  <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copiar</button>
+  <textarea id="info"></textarea>
+  
+  <!--Aqui pones tu api key de google maps-->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVlQFbATulqT7BLB-7NxlrCECqtM2J7ZI&libraries=geometry"></script>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
