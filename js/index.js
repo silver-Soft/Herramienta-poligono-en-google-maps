@@ -1,8 +1,10 @@
 //var myPolygon;
 function initialize() {
   // Map Center / Mi ubicacion, recibir JSON de coordenadas del dispositivo
-  var lat=19.47227
-  var lon=-97.92351
+  //var lat=19.47227
+  //var lon=-97.92351
+  var lat=19.30074;
+  var lon=-98.2428;
   var x = document.getElementById("distancia");  
   
   var myLatLng = new google.maps.LatLng(lat,lon);
@@ -16,10 +18,20 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
   // Coordenadas de mi polígono
   var triangleCoords = [
-    new google.maps.LatLng(19.47225,-97.9235), 
+    new google.maps.LatLng(19.30387,-98.24124),
+    new google.maps.LatLng(19.30306,-98.24234), 
+    new google.maps.LatLng(19.30247,-98.24357), 
+    new google.maps.LatLng(19.30211,-98.2444), 
+    new google.maps.LatLng(19.30023,-98.2439), 
+    new google.maps.LatLng(19.29977,-98.24391),
+    new google.maps.LatLng(19.29905,-98.24396), 
+    new google.maps.LatLng(19.29885,-98.24154), 
+    //new google.maps.LatLng(19.30387,-98.24124), 
+    
+    /*new google.maps.LatLng(19.47225,-97.9235), 
     new google.maps.LatLng(19.47221,-97.92354), 
     new google.maps.LatLng(19.47229,-97.92369), 
-    new google.maps.LatLng(19.47233,-97.92365)
+    new google.maps.LatLng(19.47233,-97.92365)*/
   ]; 
 
   var triangleCoords2 = [
