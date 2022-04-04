@@ -13,12 +13,17 @@
   <h3>Esoy dentro del poligono?</h3>
   <div id="map-canvas"></div>
   <div class="title"><span class="tit">Puntos del polígono</span></div>
+  <div class="title"><span class="tit">Distancia= </span>
+    <textarea id="distancia" cols="50"></textarea></div>
+    <button id="medir-btn" onclick=medir()>Medir</button>
+
+
   <div class="lngLat"><span class="one">Lat</span><span class="two">Lng</span></div>
   <button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copiar</button>
   <textarea id="info"></textarea>
   
   <!--Aqui pones tu api key de google maps-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=***Tu APi key**&libraries=geometry"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVlQFbATulqT7BLB-7NxlrCECqtM2J7ZI&libraries=geometry"></script>
 
   <script src="js/index.js"></script>
 

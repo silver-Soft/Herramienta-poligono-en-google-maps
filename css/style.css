@@ -25,6 +25,9 @@ h3 a:hover {
 #info {
   color: #222;
 }
+#distancia {
+  color: #222;
+}
 
 .lngLat, .title{
   color: #fff;
@@ -50,6 +53,17 @@ h3 a:hover {
   border-radius: 3px;
 }
 
+#medir-btn {
+  float: left;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 3px 3px 3px 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
 #info {
   height: 140px;
   float: left;
@@ -64,6 +78,28 @@ h3 a:hover {
 }
 
 #info, .lngLat, .title {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  padding-top: 10px;
+  width: 270px;
+}
+
+#distancia {
+  height: 10px;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-left: 60px;
+  border: solid 2px #eee;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: inset 0 2px 5px #444;
+  -webkit-box-shadow: inset 0 2px 5px #444;
+  box-shadow: inset 0 2px 5px #444;
+}
+
+#distancia, .kms {
   font-family: arial, sans-serif;
   font-size: 12px;
   padding-top: 10px;
