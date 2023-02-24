@@ -2,9 +2,9 @@
 function initialize() {
   // Map Center / Mi ubicacion, recibir JSON de coordenadas del dispositivo
   //var lat=19.47227
-  //var lon=-97.92351
-  var lat=19.30074;
-  var lon=-98.2428;
+  //var lon=-97.92351  
+  var lat=19.4627;
+  var lon=-97.9478;
   var x = document.getElementById("distancia");  
   
   var myLatLng = new google.maps.LatLng(lat,lon);
@@ -35,11 +35,7 @@ function initialize() {
   ]; 
 
   var triangleCoords2 = [
-    new google.maps.LatLng(19.47215,-97.92358), 
-    new google.maps.LatLng(19.4722,-97.92355), 
-    new google.maps.LatLng(19.47228,-97.9237), 
-    new google.maps.LatLng(19.47222,-97.92373),
-  ]; 
+    new google.maps.LatLng(19.45724,-97.92303), new google.maps.LatLng(19.48566,-97.90746), new google.maps.LatLng(19.48599,-97.93707), new google.maps.LatLng(19.45955,-97.95304),   ]; 
 
  var coordenadas = [ ] //Para recibir JSON de coordenadas de todos los edificios de resctoria
   
